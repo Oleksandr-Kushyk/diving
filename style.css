@@ -26,102 +26,135 @@ ul {
     margin: 0 auto;
     width: 1119px;
 }
+
 /* header */
-.header{
+.header {
     background-color: #0c70ac;
 }
-.header-container{
+
+.header-container {
     padding: 60px 0;
 }
-.header-list{
+
+.header-list {
     display: flex;
     gap: 95px;
 }
-.header-link{
+
+.header-link {
     font-weight: 700;
     font-size: 24px;
     color: #fff;
     text-transform: uppercase;
 }
-.active{
+
+.active {
     color: #f4de1f;
     font-weight: 700;
     font-size: 24px;
 }
+
 /* section 1 */
-.hero{
+.hero {
     background-color: #0c70ac;
     border-bottom: 1px solid #fff;
 
 }
-.hero-container{
+
+.hero-container {
     display: flex;
     justify-content: space-between;
 }
-.hero-title{
+
+.hero-title {
     font-weight: 700;
     font-size: 64px;
     text-transform: capitalize;
     color: #fff;
     padding-bottom: 34px;
 }
-.hero-text{
-font-weight: 700;
-font-size: 32px;
-color: #fff;
-text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-opacity: 0.5;
+
+.hero-text {
+    font-weight: 700;
+    font-size: 32px;
+    color: #fff;
+    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    opacity: 0.5;
 }
-.hero-img{
+
+.hero-img {
     width: 510px;
     height: 600px;
 }
-.hero-wrapper{
+
+.hero-wrapper {
     align-items: center;
 
 }
+
 /* section2 */
-.destinations{
+.destinations {
     padding: 80px 0;
 }
-.destinations-title{
+
+.destinations-title {
     font-weight: 600;
     font-size: 40px;
     color: #000;
     text-align: center;
 }
-.destinations-list{
+
+.destinations-list {
     display: flex;
     gap: 30px;
     text-align: center;
 }
-.destinations-item{
-  
-}
-.destinations-captions{
+
+.destinations-item {}
+
+.destinations-captions {
     font-weight: 500;
-font-size: 36px;
-text-align: center;
-color: #000;
-padding-bottom: 15px; 
-padding-top: 30px;
+    font-size: 36px;
+    text-align: center;
+    color: #000;
+    padding-bottom: 15px;
+    padding-top: 30px;
 }
-.destinations-text{
+
+.destinations-text {
     font-weight: 500;
-font-size: 24px;
-text-align: center;
-color: #000;
-padding-bottom: 30px;
+    font-size: 24px;
+    text-align: center;
+    color: #000;
+    padding-bottom: 30px;
 }
-.destinations-link{
+
+.destinations-link {
     font-weight: 500;
-font-size: 24px;
-text-decoration: underline;
-text-decoration-skip-ink: none;
-text-align: center;
-color: #7c7c7c;
+    font-size: 24px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-align: center;
+    color: #7c7c7c;
 
 }
 
+/* section 3 */
+.Our-blog {
+    padding: 80px 0;
+}
 
-
+.blog-title {
+    font-weight: 600;
+    font-size: 40px;
+    color: #000;
+    text-align: center;
+}
+.blog-list{
+    gap: 30px;
+    display: flex;
+    text-align: center;
+}
+.blog-item{
+    align-items: center;
+}
